@@ -1,13 +1,78 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #23252C;
+  color: #FFFFFF;
+
+
+}
+.mainContainer{
+  
+position: absolute;
+margin-top: 34px;
+margin-bottom: 50px;
+margin-left: 121px;
+margin-right: 121px;
+background-color:  #1A1B21;;
+width: 317px;
+height: 780px;
+left: 121px;
+top: 24px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Hero-image{
+display: flex;
+width: 137px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.fa-twitter {
+  background:  #918E9B;;
+  color: black;
+}
+
+
+.fa-facebook {
+  background:  #918E9B;;
+  color: black;
+ }
+
+
+.fa-linkedin {
+  background:  #918E9B;;
+  color: black;
+}
+
+
+.fa-instagram {
+  background:  #918E9B;;
+  color: black;
+}
+.fa-github{
+  background:  #918E9B;;
+  color: black;
+}
+
+.fa-linkedin{
+  background: #5093E2;;
+  color: white;
+}
+
+.favColour{
+  color: #7cb4f4;
+}
+
+/* footer{
+  background-color: #23252C;
+  height: 868px;
+} */
+
+button{
+  border-radius: 0.3rem;
+  /* text-decoration: none; */
+}
+.fa-linkedin,.fa fa-email {
+  text-decoration: none;
 }
