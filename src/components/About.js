@@ -1,9 +1,9 @@
 
 import React from 'react';
 
-export default function BodyComponent(){
-    return(<>
-        <h3>
+export default function About(){
+    return(<div className='about'>
+        <h3 className='about_title'>
           About
         </h3>
         <p>
@@ -13,10 +13,7 @@ having exceptional interpersonal and communication skills supported by
 problem resolution and team work aptitude.
  
         </p>
-        <h3>Interests</h3>
-        <p>
-            A Techie. Chess Player and Trainer (FIDE Rated).Public Speaker. Sign Language Interpreter(Certified).
-        </p>
-        </>
+        
+        </div>
     )
 }

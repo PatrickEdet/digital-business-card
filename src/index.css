@@ -1,47 +1,98 @@
-body {
+*{
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  background: #23252C;
+  padding-bottom: 0;
+}
+body {
+   background: #23252C;
   color: #FFFFFF;
 
 
 }
 .mainContainer{
-  
-position: absolute;
-margin-top: 34px;
-margin-bottom: 50px;
-margin-left: 121px;
-margin-right: 121px;
-background-color:  #1A1B21;;
-width: 317px;
-height: 780px;
-left: 121px;
-top: 24px;
-
+align-items: center;
+display: inline-block;
+/* position: absolute; */
+/* height: 100%; */
+margin-top: 50px;
+margin-bottom: 40px;
+margin-left: 80px;
+margin-right: 80px;
+background-color:  #1A1B21; 
+border-radius: 10px 10px 0px 0px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+font-family: Inter, sans-serif;
+
+
+}
+.ContactInfo{
+  text-align: center;
+  /* width: 700px; */
+}
+
+.Contact-image{
+display: flex;
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+}
+
+.ContactName{
+  padding-top: 20px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  
+}
+.contactsite{
+  padding: 10px 5px;
+}
+
+.Buttons{
+  border-radius: 6px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px; 
+  height: 30px;
+  margin-left: 40px;
 
 }
 
-.Hero-image{
-display: flex;
-width: 137px;
-border-radius: 10px 10px 0px 0px;
+.about{
+  margin-left: 40px;
+  margin-top: 32px;
+}
+.about_title{
+  padding-bottom: 7px;
+}
+
+.Interests{
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.Interests>h3{
+  padding-bottom: 7px;
 }
 
 .fa-twitter {
   background:  #918E9B;;
   color: black;
+  width: 24.27px;
 }
 
 
 .fa-facebook {
   background:  #918E9B;;
   color: black;
- }
+  width: 25px;
+   }
 
 
 .fa-linkedin {
-  background:  #918E9B;;
+  background:  #918E9B;
   color: black;
 }
 
@@ -60,19 +111,38 @@ border-radius: 10px 10px 0px 0px;
   color: white;
 }
 
-.favColour{
+.FrontendText{
   color: #7cb4f4;
 }
 
-/* footer{
-  background-color: #23252C;
-  height: 868px;
-} */
+footer{
+  background-color:#161619;
+  height: 30px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  /* padding-left: 100px; */
+  padding-right: auto;
+  align-items: center;
+}
+footer>a{
+  display: flex;
+  padding-left: 30px;
+  padding-right: 50px;
+  align-items: center;
+  width: 24px;
+  height: 25px;
+}
 
-button{
-  border-radius: 0.3rem;
-  /* text-decoration: none; */
+a{
+  text-decoration: none;
 }
 .fa-linkedin,.fa fa-email {
   text-decoration: none;
 }
+/* . fa-email{
+  border: 1px solid #D1D5DB;
+  padding-left: 20px;
+ 
+} */
+
+
