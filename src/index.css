@@ -11,6 +11,7 @@ body {
 
 }
 .mainContainer{
+  height: auto;
 align-items: center;
 display: inline-block;
 /* position: absolute; */
@@ -50,12 +51,12 @@ border-radius: 10px 10px 0px 0px;
 .Buttons{
   border-radius: 6px;
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
-  padding: 9px 13px 9px 11px;
-  width: 115px; 
-  height: 30px;
+  /* padding: 9px 13px 9px 11px; */
+  
+  width: 300px; 
+  height: 50px;
   margin-left: 40px;
 
 }
@@ -77,36 +78,7 @@ border-radius: 10px 10px 0px 0px;
   padding-bottom: 7px;
 }
 
-.fa-twitter {
-  background:  #918E9B;;
-  color: black;
-  width: 24.27px;
-}
-
-
-.fa-facebook {
-  background:  #918E9B;;
-  color: black;
-  width: 25px;
-   }
-
-
-.fa-linkedin {
-  background:  #918E9B;
-  color: black;
-}
-
-
-.fa-instagram {
-  background:  #918E9B;;
-  color: black;
-}
-.fa-github{
-  background:  #918E9B;;
-  color: black;
-}
-
-.fa-linkedin{
+._linkedin{
   background: #5093E2;;
   color: white;
 }
@@ -129,20 +101,19 @@ footer>a{
   padding-left: 30px;
   padding-right: 50px;
   align-items: center;
-  width: 24px;
-  height: 25px;
+  width: 317px;
+  height: 64px;
 }
 
 a{
   text-decoration: none;
 }
-.fa-linkedin,.fa fa-email {
-  text-decoration: none;
-}
-/* . fa-email{
+
+._email{
+  
   border: 1px solid #D1D5DB;
   padding-left: 20px;
- 
-} */
+  margin-right: auto;
+}
 
 
