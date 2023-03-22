@@ -1,16 +1,9 @@
 import React from "react";
-import ContactImage from "../images/Patrick_Edet.jpg";
-
 export default function ContactInfo(){
-    return(
+    return (
         <div className="ContactInfo">
-        <img 
-        src={ContactImage}
-        alt="A Male "
-        className="Contact-image"
-        />
-        <div>
-<h1 className="ContactName">Patrick Edet</h1>
+       <div> 
+        <h1 className="ContactName">Patrick Edet</h1>
 <h4 className='FrontendText'>Frontend Developer</h4>
 <h4 className="contactsite"><a href="#">patrickedet.com</a></h4>
 </div>
@@ -22,7 +15,8 @@ export default function ContactInfo(){
 </span>Linkedin</a></button>
         
 
-        </div>
-        </div>
+            </div>
+            </div>
+        
     )
 }

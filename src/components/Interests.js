@@ -6,7 +6,7 @@ export default function Interests(){
              
         <h3 className="Interest_title">Interests</h3>
         <p>
-            A Techie. Chess Player and Trainer (FIDE Rated).Public Speaker. Sign Language Interpreter(Certified).
+            Coding . Chess . Public Speaker. Sign Language . Physical Science
         </p>
         </div>
     )

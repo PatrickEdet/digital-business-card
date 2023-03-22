@@ -5,12 +5,13 @@ import ContactInfo from './components/ContactInfo';
 import About from './components/About';
 import Interests from './components/Interests';
 import Footer from './components/Footer';
-
+import ImageComponent from './components/ImageComponent';
 
 export default function App() {
   return (
     
-      <main className="mainContainer">
+    <main className="mainContainer">
+      <ImageComponent/>
         <ContactInfo/>
         <About/>
         <Interests/>
