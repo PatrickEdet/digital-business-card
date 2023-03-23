@@ -15,8 +15,8 @@ main{
         margin-left: 116px;
         margin-top: 44px;
         background-color:#1A1B21;
-        border-radius: 10px 10px 10px 10px
-      
+        border-radius: 10px 10px 10px 10px;
+           
 
 }
 
@@ -116,13 +116,23 @@ img{
     margin-bottom: 5px;
 }
 .Interests {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     
 }
 footer{
-
-    width: 317px;
-    height: 64px;
-    border-radius: 0px 0px 10px 10px;
-    margin-bottom: 44px;
+    display: flex;
+       align-content:center;
+        width: 317px;
+        height: 64px;
+        padding: 10px 10px;
+        padding-left: 70px;
+        /* pading-top: 760px;          */
+        background: #161619;
+        border-radius: 0px 0px 10px 10px;
     }
+
+    footer>a{
+       display: flex;
+       align-items: center;
+       padding: 10px;
+                 }
