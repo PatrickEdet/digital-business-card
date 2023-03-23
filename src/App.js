@@ -10,13 +10,14 @@ import ImageComponent from './components/ImageComponent';
 export default function App() {
   return (
     
-    <main className="mainContainer">
-      <ImageComponent/>
+    <main >
+      <ImageComponent />
+      <div className='MainContainer'>
         <ContactInfo/>
         <About/>
         <Interests/>
         <Footer/>
-
+      </div>
 
       </main>
     

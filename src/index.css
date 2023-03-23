@@ -1,0 +1,128 @@
+body{
+    background-color:#23252C;
+    color: #fff;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    height: 100%vh;
+    
+}
+
+main{
+        position: absolute;
+        width: 317px;
+        height: 780px;
+        margin-left: 116px;
+        margin-top: 44px;
+        background-color:#1A1B21;
+        border-radius: 10px 10px 10px 10px
+      
+
+}
+
+img{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+.ContactName{
+    font-family: 'Inter', sans-serif;
+        font-style: normal;       
+        font-size: 25px;
+        margin-top: 10px;
+       }
+.FrontendText{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 12.8px;
+        color: hsl(231, 94%, 62%);
+        line-height: 15px;
+        margin-top: 3.5px;
+        margin-bottom: 5px;
+        }
+
+        .website{
+            color: #fff;
+            /* margin-bottom: 6px; */
+        }
+        .Buttons{
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        ._email{
+            box-sizing: border-box;
+            
+                /* Auto layout */
+            
+                /* display: flex; */
+                flex-direction: row;
+               padding: 9px 13px 9px 11px;
+                /* gap: 8px; */
+                align-items: center;
+                align-content: center;
+                /* position: absolute; */
+                width: 115px;
+                margin-right: 17px;
+            
+                
+            
+                background: #FFFFFF;
+                /* gray/300 */
+            
+                border: 1px solid #D1D5DB;
+                /* shadow/sm */
+            
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+        }
+        .BlackIcon{
+            
+            color: #1E1F26;
+        }
+        ._linkedin{
+
+                justify-content: center;
+                align-items: center;
+                padding: 9px 13px 9px 11px;
+             
+                width: 115px;
+               
+            
+                background: #5093E2;
+                /* shadow/sm */            
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+        }
+
+        a{
+            text-decoration: none;
+            /* color: #fff; */
+        }
+
+
+.ContactInfo{
+    align-items: center;
+    text-align: center;
+}
+.about_title{
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+.Interest_title{
+    font-style: normal;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.Interests {
+    margin-bottom: 30px;
+    
+}
+footer{
+
+    width: 317px;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 44px;
+    }
