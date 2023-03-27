@@ -5,7 +5,7 @@ export default function ContactInfo(){
        <div> 
         <h1 className="ContactName">Patrick Edet</h1>
 <h4 className='FrontendText'>Frontend Developer</h4>
-<h6><a href="#" className="website">patrickedet.com</a></h6>
+<h6><a href="https://tctibiase.com" className="website">patrickedet.com</a></h6>
 </div>
 <div className='Buttons'>
         <button className='_email' ><a href='grandpato001@gmail.com'><svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
