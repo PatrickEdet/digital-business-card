@@ -16,7 +16,7 @@ main{
         margin-top: 44px;
         background-color:#1A1B21;
         border-radius: 10px 10px 10px 10px;
-           
+                 
 
 }
 
@@ -118,6 +118,7 @@ img{
 .Interests {
     margin-bottom: 0px;
     padding-bottom: 18px;
+    background-color: #1A1B21;
     
 }
 footer{
@@ -137,3 +138,34 @@ footer{
        align-items: center;
        padding: 10px;
                  }
+/* Small devices (phones, 600px and down */
+    @media only screen and (max-width: 600px) {
+ 
+  main {
+        width: 80%;
+        height: 780px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        align-items: center;
+      }
+  img{
+    width: 100%;
+  }
+  .about{
+    background-color: #1A1B21;;
+  }
+  .Interests{
+    margin-bottom: 0px;
+    background-color:#1A1B21;
+  }
+  footer{
+    width: 100%;
+    margin-bottom: 0px;
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+  }
+
+  
