@@ -8,8 +8,7 @@ export default function About(){
         </h3>
         <p>
         An innovative Web Developer driven with a zeal to use technology to
-solve problems. Known for delivering results efficiently and effectively,
-having exceptional interpersonal and communication skills supported by
+solve problems. Having exceptional interpersonal and communication skills supported by
 problem resolution and team work aptitude.
  
         </p>
